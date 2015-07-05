@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    body {
+      font-family: Helvetica, sans-serif;
+      text-align: center;
+      background-color: white;
+      color: white;
+      padding: 0;
+      margin: 0;
+    }
+    div {
+
+    }
+    .other-thing {
+      z-index: -1;
+      padding-top: 25vh;
+      position: fixed;
+      top: 0;
+      width:100%;
+      background-color: black;
+      height: 100vh;
+    }
+    .gradient {
+      height: 150vh;
+      width: 100%;
+      background-image: linear-gradient(transparent 20%, black 50%);
+    }
+  </style>
+</head>
+<body>
+  <div class="gradient"></div>
+  <div class="other-thing"><h1>some content</h1></div>
+</body>
+</html>
